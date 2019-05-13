@@ -17,7 +17,6 @@ function App() {
 						{ link: '#portfolio', text: 'Portfolio' },
 						{ link: '#contact', text: 'Contact' },
 					]}
-					color="red"
 				/>
 				<SectionDivider height="3rem" fill="#00684E" />
 				<div className="container">

@@ -1,13 +1,12 @@
 import React from 'react';
 import './style.css';
-import image from './about.jpg';
 
 function Hero(props) {
 	return (
 		<div className="jumbotron">
 			<div className="row justify-content-center">
 				<div className="col-md-4 text-center">
-					<img className="border-circle" src={image} alt="Bradley Jensen" />
+					<img className="border-circle" src={process.env.PUBLIC_URL + '/images/about.jpg'} alt="Bradley Jensen" />
 				</div>
 				<div className="col-md-8">
 					<p className="lead text-justify">

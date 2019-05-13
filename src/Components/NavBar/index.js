@@ -1,9 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import './style.css';
+
 function NavBar(props) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+		<nav className="navbar navbar-expand-lg navbar-light bg-green">
 			<a className="navbar-brand" href="/">
 				Home
 			</a>

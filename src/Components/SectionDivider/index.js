@@ -1,6 +1,6 @@
 import React from 'react';
 
-function NavBar(props) {
+function SectionDivider(props) {
 	return (
 		<svg
 			id="curve-seperator"
@@ -15,4 +15,4 @@ function NavBar(props) {
 	);
 }
 
-export default NavBar;
+export default SectionDivider;

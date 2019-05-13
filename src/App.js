@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Route, Link, Switch, Redirect } from 'react-ro
 
 import NavBar from './Components/NavBar';
 import SectionDivider from './Components/SectionDivider';
+
 import Home from './Pages/Home';
+import NoMatch from './Pages/NoMatch';
 
 function App() {
 	return (
@@ -17,18 +19,12 @@ function App() {
 					]}
 					color="red"
 				/>
-				<SectionDivider height="3rem" fill="red" />
+				<SectionDivider height="3rem" fill="#00684E" />
 				<div className="container">
-					<Home />
-					{/* // Hero */}
-
-					{/* // Skills */}
-					<div id="skills">skills</div>
-					{/* // Portfolio */}
-					<div id="portfolio">skills</div>
-					{/* Contact */}
-					<div id="contact">skills</div>
-					{/* // Footer */}
+				<Switch>
+						<Route exact path="/" component={Home} />
+						<Route component={NoMatch} />
+					</Switch>
 				</div>
 			</Router>
 		</div>

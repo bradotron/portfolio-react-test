@@ -1,3 +1,26 @@
+# Table of Contents
+*[About This Repository](#About-This-Repository)\
+*[Create-React-App](#Create-React-App)
+
+# About This Repository
+## Introduction
+This repository is a basic portfolio I've created to showcase the highlights of my portfolio and list my valueable skills. The repository was made using react, refer to the [Create-React-App](#Create-React-App) section for information on getting started.
+
+## About Me
+blah blah
+
+### Portfolio
+1. Clicky-Memory-Game
+2. Google-Books-Search
+3. News-Scraping and Saving (needs an update)
+4. Star Wars RPG
+
+### Skills
+
+### Contact Info
+
+# Create-React-App
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

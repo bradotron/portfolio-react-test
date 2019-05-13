@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import './style.css';
 
@@ -25,7 +25,8 @@ function NavBar(props) {
 					{props.links.map(link => {
 						return (
 							<li className="nav-link">
-								<Link to={link.link}>{link.text}</Link>
+								{/* <Link to={link.link}>{link.text}</Link> */}
+								<a href={link.link}>{link.text}</a>
 							</li>
 						);
 					})}

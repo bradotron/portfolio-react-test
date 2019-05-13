@@ -21,7 +21,7 @@ function App() {
 				/>
 				<SectionDivider height="3rem" fill="#00684E" />
 				<div className="container">
-				<Switch>
+					<Switch>
 						<Route exact path="/" component={Home} />
 						<Route component={NoMatch} />
 					</Switch>

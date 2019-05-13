@@ -4,7 +4,8 @@ function Contact(props) {
 	return (
 		<section id={props.id}>
 			<h2>This is the contact form.</h2>
-		</section>	);
+		</section>
+	);
 }
 
 export default Contact;
